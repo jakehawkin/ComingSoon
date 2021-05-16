@@ -1,0 +1,75 @@
+.social-media {
+    font-size: 3rem !important;
+}
+
+.social-media a {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    display: flex;
+    align-items: center;
+}
+
+@keyframes shake {
+    0% {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        width: 25%;
+    }
+    20% {
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+        width: 30%;
+    }
+    40% {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        width: 25%;
+    }
+    60% {
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        transform: rotate(-5deg);
+        width: 30%;
+    }
+    80% {
+        -webkit-transform: rotate(0);
+        -moz-transform: rotate(0);
+        -ms-transform: rotate(0);
+        -o-transform: rotate(0);
+        transform: rotate(0);
+        width: 25%;
+    }
+    100% {}
+}
+
+#brandImg {
+    position: absolute;
+    left: 0%;
+    opacity: 0;
+}
+
+#comingSoon {
+    position: absolute;
+    margin-left: 5%;
+    right: 0%;
+    opacity: 0;
+    animation: shake 7s 1s infinite;
+}
